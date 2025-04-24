@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default"
-title                    : "Your Name / Site Title"
+title                    : "Tianyi Niu"
 title_separator          : "-"
 name                     : &name "Tianyi Niu"
 description              : &description "BS/MS Computer Science Student at UNC Chapel Hill."
@@ -22,7 +22,7 @@ repository               : "tianyiniu/tianyiniu.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "headshot_apr25.png"
+  avatar           : "/images/headshot_apr25.png"
   name             : "Tianyi Niu"
   pronouns         : # example: "she/her"  
   bio              : "BS/MS Computer Science Student at UNC Chapel Hill"
