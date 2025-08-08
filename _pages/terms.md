@@ -13,7 +13,7 @@ The privacy of my visitors is extremely important. This Privacy Policy outlines 
 
 First and foremost, I will never share your email address or any other personal information to anyone without your direct consent.
 
-### Log Files
+### Log Files`
 
 Like many other websites, this site uses log files to help learn about when, from where, and how often traffic flows to this site. The information in these log files include:
 
