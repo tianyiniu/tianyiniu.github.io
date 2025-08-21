@@ -27,13 +27,13 @@ author:
   pronouns         : # example: "she/her"  
   bio              : "BS/MS Computer Science Student at UNC Chapel Hill"
   location         : "Chapel Hill, NC"
-  employer         : "University of North Carolina at Chapel Hill"
+  # employer         : "UNC CHapel Hill"
   uri              : "https://tianyiniu.github.io" # URL
-  email            : "tianyi.niu4@gmail.com" 
+  # email            : "tianyin4@cs.unc.edu" 
 
   # Academic websites
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : "https://scholar.google.com/citations?user=SAIOsY4AAAAJ&hl=en"
   impactstory      : # URL
   orcid            : "https://orcid.org/0009-0009-0138-1419"
   semantic         : # URL
@@ -50,7 +50,7 @@ author:
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 
   # Social media
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
@@ -76,13 +76,13 @@ author:
   zhihu            : # Username
 
 # Publication Category - The following the list of publication categories and their headings
-publication_category:
-  books:
-    title: 'Books'
-  conferences:
-    title: 'Conference Papers'
-  manuscripts:
-    title: 'Journal Articles'    
+# publication_category:
+#   books:
+#     title: 'Books'
+#   conferences:
+#     title: 'Conference Papers'
+#   manuscripts:
+#     title: 'Journal Articles'    
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
@@ -237,9 +237,9 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
-      share: true
-      related: true
+      comments: false
+      share: false
+      related: false
   # _pages
   - scope:
       path: ""
@@ -254,8 +254,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
   # _publications
   - scope:
       path: ""
@@ -263,8 +263,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comments: true
+      share: false
+      comments: false
   # _portfolio
   - scope:
       path: ""
@@ -272,8 +272,8 @@ defaults:
     values:
       layout: single
       author_profile: true
-      share: true
-      comment: true
+      share: false
+      comment: false
   # _talks
   - scope:
       path: ""
@@ -281,7 +281,7 @@ defaults:
     values:
       layout: talk
       author_profile: true
-      share: true
+      share: false
 
 
 # Sass/SCSS

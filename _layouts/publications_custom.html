@@ -1,0 +1,35 @@
+---
+layout: default
+---
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+{% if page.url != "/" and site.breadcrumbs %}
+  {% unless paginator %}
+    {% include breadcrumbs.html %}
+  {% endunless %}
+{% endif %}
+
+<div id="main" role="main">
+  {% include sidebar.html %}
+
+  <div class="archive">
+    {% unless page.header.overlay_color or page.header.overlay_image %}
+      <h1 class="page__title">{{ page.title }}</h1>
+    {% endunless %}
+    
+    <!-- Loop through publications -->
+    {% for post in site.publications reversed %}
+      <div class="publication">
+        <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+        <p><strong>Venue:</strong> {{ post.venue }}</p>
+        <p><strong>Date:</strong> {{ post.date | date: "%B %d, %Y" }}</p>
+        {% if post.excerpt %}
+          <p>{{ post.excerpt }}</p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
