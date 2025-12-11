@@ -6,6 +6,9 @@ permalink: /publication/2025-07-04-healthcareacceptability
 excerpt: ''
 date: 2025-07-04
 venue: 'International Conference in Greece on Informatics, Management and Technology in Healthcare 2025'
+venue_nickname: 'ICIMTH'
+authors: 'Saif Khairat, John Geracitano, <u>Tianyi Niu</u>, Kaushalya Mendia'
+paperurl: "https://pubmed.ncbi.nlm.nih.gov/40588875/"
 # slidesurl: 'http://academicpages.github.io/files/slides3.pdf'
 # paperurl: 'http://academicpages.github.io/files/paper3.pdf'
 # citation: ''
