@@ -5,7 +5,8 @@ Website built on [*Academic Pages*](https://github.com/academicpages/academicpag
 # Implementation Notes
 
 1. Files uploaded into `files/` will appear at `https://tianyiniu.github.io/files/example.pdf`.
-1. Check build status: repository settings --> "GitHub pages"
+1. Check build status: Actions --> All workflows
+1. Access homepage: Settings --> Pages
 
 ### Docker
 
