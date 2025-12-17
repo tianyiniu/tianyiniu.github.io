@@ -27,190 +27,36 @@ Feel free to reach me at: tianyin4 [at] cs [dot] unc [dot] edu
 
 ## 📢 News
 
-<style>
-  .news-box {
-    /* 1. Sizing & Scrolling */
-    height: 200px; /* Fixed height */
-    overflow-y: scroll; /* Forces scrollbar to appear */
+<div class="about-content">
+  <div class="news-box"> 
     
-    /* 2. Border & Design */
-    border: 1px solid #e1e4e8; /* Light gray border */
-    border-radius: 6px; /* Rounded corners */
-    padding: 15px; /* Spacing inside the border */
-    background-color: #f6f8fa; /* Very faint gray background */
-    box-shadow: inset 0 1px 2px rgba(0,0,0,0.03); /* Subtle inner shadow */
-    font-size: 0.9em; 
-  }
-
-  .news-item {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 12px;
-    border-bottom: 1px solid #eaecef; /* Optional separator line between items */
-    padding-bottom: 12px;
-  }
-  
-  /* Removes the line from the last item */
-  .news-item:last-child {
-    border-bottom: none;
-    margin-bottom: 0;
-    padding-bottom: 0;
-  }
-
-  .news-date {
-    flex: 0 0 85px; /* Width of the date column */
-    font-weight: 600;
-    color: #444;
-    padding-right: 10px;
-    font-size: 0.85em;
-  }
-  
-  .news-content {
-    flex: 1;
-    color: #24292e;
-  }
-  
-  /* Link styling inside the box */
-  .news-content a {
-    color: #0366d6;
-    text-decoration: none;
-  }
-  .news-content a:hover {
-    text-decoration: underline;
-  }
-</style>
-
-<div class="news-box">
-  
-  <div class="news-item">
-    <div class="news-date">Aug 21, 2025</div>
-    <div class="news-content">
-      New preprint: <i>RotBench: Evaluating Multimodal Large Language Models on Identifying Image Rotation</i>.
+    <div class="news-item">
+      <div class="news-date">Aug 21, 2025</div>
+      <div class="news-content">
+        New preprint: <i>RotBench: Evaluating Multimodal Large Language Models on Identifying Image Rotation</i>.
+      </div>
     </div>
-  </div>
 
-  <div class="news-item">
-    <div class="news-date">Aug 20, 2025</div>
-    <div class="news-content">
-      1 paper accepted into <strong>EMNLP 2025</strong>: <i>Chameleon LLMs: User Personas Influence ChatBot Personality Shifts</i>.
+    <div class="news-item">
+      <div class="news-date">Aug 20, 2025</div>
+      <div class="news-content">
+        1 paper accepted into <strong>EMNLP 2025</strong>: <i>Chameleon LLMs: User Personas Influence ChatBot Personality Shifts</i>.
+      </div>
     </div>
-  </div>
 
-   <div class="news-item">
-    <div class="news-date">June 01, 2025</div>
-    <div class="news-content">
-       Joined MURGe-Lab as a Research Assistant advised by Prof. Mohit Bansal.
+    <div class="news-item">
+      <div class="news-date">June 01, 2025</div>
+      <div class="news-content">
+        Joined MURGe-Lab as a Research Assistant advised by Prof. Mohit Bansal.
+      </div>
     </div>
-  </div>
 
-</div>
+  </div> </div>
 
 
 ## 📝 Publications
 
-<style>
-  /* 1. Container for the list */
-  .pub-list {
-    display: flex;
-    flex-direction: column;
-    gap: 20px; /* Space between papers */
-  }
-
-  /* 2. Each Paper Row */
-  .pub-item {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-start;
-    position: relative;
-  }
-
-  /* 3. The Badge (Left Side) */
- .pub-badge {
-    width: 80px;
-    padding: 3px 0; /* Slightly less padding because of the border */
-    text-align: center;
-    font-weight: 600;
-    font-size: 0.6em;
-    border-radius: 4px;
-    margin-right: 20px;
-    flex-shrink: 0;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    
-    /* The Subtle Changes: */
-    box-shadow: none;
-    background-color: transparent; /* See-through background */
-    border: 1px solid #e5e7eb; /* Default light border */
-    }
-
-  /* Badge Colors - Add more as needed */
-    /* Big AI: ICLR, ICML, NeurIPS, COLM */
-    .badge-neurips,
-    .badge-icml,
-    .badge-iclr,
-    .badge-colm { 
-    border-color: #9333ea; 
-    color: #9333ea; 
-    }
-    /* NLP and Comp Ling Oriented: ACL, NAACL, EACL, SIGMORPHON */
-    .badge-acl,
-    .badge-naacl,
-    .badge-eacl,
-    .badge-emnlp,
-    .badge-sigmorphon { 
-    border-color: #0d9488; 
-    color: #0d9488; 
-    }
-    /* Healthcare: ICIMTH */
-    .badge-icimth { 
-    border-color: #ea580c; 
-    color: #ea580c; 
-    }
-    /* Other (thesis, preprints) */
-    .badge-arxiv,
-    .badge-thesis { 
-    border-color: #2563eb; 
-    color: #2563eb; 
-    }
-    /* Default */
-    .badge-default { 
-    border-color: #64748b; 
-    color: #64748b; 
-    }
-
-  /* 4. The Content (Right Side) */
-  .pub-content {
-    flex-grow: 1;
-  }
-
-  .pub-title {
-    font-weight: 600;
-    color: #c026d3; /* Matches your theme color */
-    text-decoration: none;
-    font-size: 1.0em;
-    display: block;
-    margin-bottom: 4px;
-    margin-right: 2px;
-  }
-  
-  .pub-title:hover {
-    text-decoration: underline;
-  }
-
-  .pub-authors {
-    color: #333;
-    font-size: 0.8em;
-    margin-bottom: 2px;
-  }
-
-  .pub-venue {
-    color: #666;
-    font-size: 0.7em;
-  }
-
-</style>
-
-<div class="pub-list">
+<div class="about-content">
   {% assign sorted_pubs = site.publications | sort: 'date' | reverse %}
   {% for post in sorted_pubs %}
     
@@ -262,7 +108,6 @@ Feel free to reach me at: tianyin4 [at] cs [dot] unc [dot] edu
           {{ post.venue }}
         </div>
       </div>
-      
       <div class="pub-year-bg">{{ post.date | date: "%Y" }}</div>
     </div>
   {% endfor %}

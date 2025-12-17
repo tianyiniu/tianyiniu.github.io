@@ -1,0 +1,172 @@
+/* ==========================================================================
+   CUSTOM ABOUT PAGE STYLES
+   Adapts to Light/Dark themes using global CSS variables
+   ========================================================================== */
+
+.about-content {
+  font-size: 16px;
+  line-height: 1.6;
+  
+  /* Use the theme's text color variable. 
+     This automatically switches from Dark Gray (Light Mode) to White (Dark Mode).
+  */
+  color: var(--global-text-color);
+
+  /* --- News Box Container --- */
+  .news-box {
+    height: 200px; 
+    overflow-y: scroll;
+    
+    /* Use the theme's border color */
+    border: 1px solid var(--global-border-color);
+    border-radius: 6px;
+    padding: 15px;
+    
+    /* Light Mode Background (Hardcoded as it differs from global white) */
+    background-color: #f6f8fa; 
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.03);
+    font-size: 0.9em;
+
+    /* Dark Mode Overrides */
+    html[data-theme="dark"] & {
+      /* Make the box slightly darker than the main background (#474747) for contrast */
+      background-color: rgba(0, 0, 0, 0.2); 
+      border-color: var(--global-border-color);
+      box-shadow: none;
+    }
+  }
+
+  /* --- News Items --- */
+  .news-item {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+  
+  .news-item:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+  }
+
+  .news-date {
+    flex: 0 0 85px;
+    font-weight: 600;
+    padding-right: 10px;
+    font-size: 0.85em;
+    color: var(--global-text-color-light); 
+  }
+  
+  .news-content {
+    flex: 1;
+    color: var(--global-text-color);
+  }
+  
+  .news-content a {
+    color: var(--global-link-color);
+    text-decoration: none;
+  }
+  .news-content a:hover {
+    color: var(--global-link-color-hover);
+    text-decoration: underline;
+  }
+
+  /* --- Publications --- */
+  .pub-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .pub-item {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    position: relative;
+  }
+
+  /* Badges */
+  .pub-badge {
+    width: 80px;
+    padding: 3px 0;
+    text-align: center;
+    font-weight: 600;
+    font-size: 0.6em;
+    border-radius: 4px;
+    margin-right: 20px;
+    flex-shrink: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    background-color: transparent;
+    border: 1px solid #e5e7eb;
+
+    html[data-theme="dark"] & {
+      border-color: var(--global-border-color);
+    }
+  }
+
+  /* Badge Colors 
+     We define lighter variations for dark mode to ensure they pop against #474747
+  */
+  
+  /* Purple Badges */
+  .badge-neurips, .badge-icml, .badge-iclr, .badge-colm { 
+    border-color: #9333ea; color: #9333ea; 
+    html[data-theme="dark"] & { border-color: #d8b4fe; color: #d8b4fe; } /* Lavender for dark mode */
+  }
+
+  /* Teal Badges */
+  .badge-acl, .badge-naacl, .badge-eacl, .badge-emnlp, .badge-sigmorphon { 
+    border-color: #0d9488; color: #0d9488; 
+    html[data-theme="dark"] & { border-color: #5eead4; color: #5eead4; } /* Bright teal for dark mode */
+  }
+
+  /* Orange Badges */
+  .badge-icimth { 
+    border-color: #ea580c; color: #ea580c; 
+    html[data-theme="dark"] & { border-color: #fdba74; color: #fdba74; } 
+  }
+
+  /* Blue Badges */
+  .badge-arxiv, .badge-thesis { 
+    border-color: #2563eb; color: #2563eb; 
+    html[data-theme="dark"] & { border-color: #93c5fd; color: #93c5fd; } 
+  }
+
+  /* Default Badges */
+  .badge-default { 
+    border-color: #64748b; color: #64748b; 
+    html[data-theme="dark"] & { border-color: #cbd5e1; color: #cbd5e1; } 
+  }
+
+  /* --- Publication Text --- */
+  .pub-content { flex-grow: 1; }
+
+  .pub-title {
+    font-weight: 600;
+    color: #c026d3; 
+    text-decoration: none;
+    font-size: 1.0em;
+    display: block;
+    margin-bottom: 4px;
+    margin-right: 2px;
+    
+    html[data-theme="dark"] & {
+       color: #e879f9; 
+    }
+  }
+  .pub-title:hover { text-decoration: underline; }
+
+  .pub-authors {
+    font-size: 0.8em;
+    margin-bottom: 2px;
+    color: var(--global-text-color);
+  }
+
+  .pub-venue {
+    font-size: 0.7em;
+    color: var(--global-text-color-light);
+  }
+}

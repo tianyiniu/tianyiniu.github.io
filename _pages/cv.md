@@ -3,8 +3,10 @@ layout: archive
 title: "CV"
 permalink: /cv/
 author_profile: false
+title: ""
 redirect_from:
   - /resume-json
+cv_file: /files/Niu_CV.pdf
 ---
 
 {% include base_path %}
@@ -27,9 +29,9 @@ redirect_from:
   }
 </style>
 
-<object data="{{ base_path }}/files/cv.pdf" type="application/pdf" class="pdf-container">
+<object data="{{ base_path }}{{ page.cv_file }}" type="application/pdf" class="pdf-container">
     <div style="padding: 20px; text-align: center;">
         <p>Your browser does not support embedded PDF viewing.</p>
-        <a href="{{ base_path }}/files/cv.pdf" class="btn btn--primary">Click here to download the PDF</a>
+        <a href="{{ base_path }}{{ page.cv_file }}" class="btn btn--primary">Click here to download the PDF</a>
     </div>
 </object>
