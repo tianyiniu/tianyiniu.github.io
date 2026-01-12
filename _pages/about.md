@@ -12,7 +12,7 @@ redirect_from:
 </style>
 
 
-Hello! I am pursuing a Master of Science in Computer Science at [The University of North Carolina at Chapel Hill](https://www.unc.edu). I am currently a Research Assistant at [MURGe-Lab](https://murgelab.cs.unc.edu), advised by [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/) and Prof. [Elias Stengel-Eskin](https://esteng.github.io/). **I am applying to PhD programs starting Fall 2026.** 
+Hello! I am pursuing a Master of Science in Computer Science at [The University of North Carolina at Chapel Hill](https://www.unc.edu). I am currently a Research Assistant at [MURGe-Lab](https://murgelab.cs.unc.edu), advised by [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/) and [Prof. Elias Stengel-Eskin](https://esteng.github.io/). **I am applying to PhD programs starting Fall 2026.** 
 
 My current research focuses on two key directions: 
 1. **Abstractions and Cognition of MLLMs.** How do abstractions formed by (M)LLMs differ from humans,
@@ -21,7 +21,7 @@ and can insights from human cognition inform model development, and vice versa?
 systems, and can principles of human communication also inform and optimize multi-agent interaction
 paradigms?
 
-I previously graduated from UNC Chapel Hill highest distinction, obtaining a BS in Computer Science with highest honors and a BA in Linguistics. My undergraduate thesis (advised by [Prof. Shashank Srivastava](https://www.ssriva.com)) explored whether LLMs benefit from curriculum training on synthetic pre-training data.
+I previously graduated from UNC Chapel Hill with highest distinction, obtaining a BS in Computer Science (highest honors) with a second major in Linguistics. My undergraduate thesis (advised by [Prof. Shashank Srivastava](https://www.ssriva.com)) explored whether LLMs benefit from curriculum training on synthetic pre-training data.
 
 Feel free to reach me at: tianyin4 [at] cs [dot] unc [dot] edu
 
@@ -29,23 +29,44 @@ Feel free to reach me at: tianyin4 [at] cs [dot] unc [dot] edu
 
 <div class="about-content">
   <div class="news-box"> 
-    
+
     <div class="news-item">
-      <div class="news-date">Aug 21, 2025</div>
+      <div class="news-date">Jan 2026</div>
+      <div class="news-content">
+        🎉 1 paper accepted into <strong>EACl 2026 main</strong>: <i>RotBench: Evaluating Multimodal Large Language Models on Identifying Image Rotation</i>.
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-date">Dec 2025</div>
+      <div class="news-content">
+        New preprint: <i>Socratic Students: Teaching Language Models to Learn by Asking Questions</i>.
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-date">Dec 2025</div>
+      <div class="news-content">
+        New preprint: <i>Adversarially Probing Cross-Family Sound Symbolism in 27 Languages</i>.
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-date">Aug 2025</div>
       <div class="news-content">
         New preprint: <i>RotBench: Evaluating Multimodal Large Language Models on Identifying Image Rotation</i>.
       </div>
     </div>
 
     <div class="news-item">
-      <div class="news-date">Aug 20, 2025</div>
+      <div class="news-date">Aug 2025</div>
       <div class="news-content">
-        1 paper accepted into <strong>EMNLP 2025</strong>: <i>Chameleon LLMs: User Personas Influence ChatBot Personality Shifts</i>.
+        🎉 1 paper accepted into <strong>EMNLP 2025 main</strong>: <i>Chameleon LLMs: User Personas Influence ChatBot Personality Shifts</i>.
       </div>
     </div>
 
     <div class="news-item">
-      <div class="news-date">June 01, 2025</div>
+      <div class="news-date">June 2025</div>
       <div class="news-content">
         Joined MURGe-Lab as a Research Assistant advised by Prof. Mohit Bansal.
       </div>
@@ -76,6 +97,9 @@ Feel free to reach me at: tianyin4 [at] cs [dot] unc [dot] edu
     {% elsif venue_down contains 'arxiv' %}
       {% assign badge_class = 'badge-arxiv' %}
       {% assign badge_text = 'Preprint' %}
+    {% elsif venue_down contains 'eacl' %}
+      {% assign badge_class = 'badge-eacl' %}
+      {% assign badge_text = 'EACL' %}
     {% elsif venue_down contains 'acl' %}
       {% assign badge_class = 'badge-acl' %}
       {% assign badge_text = 'ACL' %}
