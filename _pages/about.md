@@ -33,6 +33,13 @@ Feel free to reach me at: tianyin4 [at] cs [dot] unc [dot] edu
     <div class="news-item">
       <div class="news-date">Jan 2026</div>
       <div class="news-content">
+        New preprint: <i>Routing with Generated Data: Annotation-Free LLM Skill Estimation and Expert Selection</i>.
+      </div>
+    </div>
+
+    <div class="news-item">
+      <div class="news-date">Jan 2026</div>
+      <div class="news-content">
         🎉 1 paper accepted into <strong>EACl 2026 main</strong>: <i>RotBench: Evaluating Multimodal Large Language Models on Identifying Image Rotation</i>.
       </div>
     </div>

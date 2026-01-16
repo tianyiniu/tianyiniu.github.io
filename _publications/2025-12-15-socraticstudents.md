@@ -7,7 +7,7 @@ excerpt: ''
 date: 2025-12-15
 venue: 'Arxiv preprint'
 venue_nickname: 'arxiv'
-authors: 'Rajeev Bhatt Ambati*, <u>Tianyi Niu*</u>, Aashu Singh, Shlok Mishra, Shashank Srivastava, Snigdha Chaturvedi'
+authors: 'Rajeev Bhatt Ambati<b>*</b>, <u>Tianyi Niu<b>*</b></u>, Aashu Singh, Shlok Mishra, Shashank Srivastava, Snigdha Chaturvedi'
 paperurl: "https://arxiv.org/abs/2512.13102"
 # slidesurl: 'http://academicpages.github.io/files/slides1.pdf'
 # paperurl: 'http://academicpages.github.io/files/paper1.pdf'
