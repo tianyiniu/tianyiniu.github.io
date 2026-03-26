@@ -12,7 +12,7 @@ redirect_from:
 </style>
 
 
-Hello! I am pursuing a Master of Science in Computer Science at [The University of North Carolina at Chapel Hill](https://www.unc.edu). I am currently a Research Assistant at [MURGe-Lab](https://murgelab.cs.unc.edu), advised by [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/) and [Prof. Elias Stengel-Eskin](https://esteng.github.io/). **I am applying to PhD programs starting Fall 2026.** 
+Hello! I am pursuing a Master of Science in Computer Science at [The University of North Carolina at Chapel Hill](https://www.unc.edu). I am currently a Research Assistant at [MURGe-Lab](https://murgelab.cs.unc.edu), advised by [Prof. Mohit Bansal](https://www.cs.unc.edu/~mbansal/) and [Prof. Elias Stengel-Eskin](https://esteng.github.io/).
 
 My current research focuses on two key directions: 
 1. **Abstractions and Cognition of MLLMs.** How do abstractions formed by (M)LLMs differ from humans,
